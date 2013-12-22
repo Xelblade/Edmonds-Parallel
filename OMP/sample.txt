@@ -1,0 +1,812 @@
+
+Sequential solution found!
+Solution took 0.0004s sequentially
+
+Sequential solution found (again)!
+Matching contained 50 edges.
+Solution took 0.0002s sequentially
+----------------------------------
+5: Found u and v: 86 -> 5
+4: Found u and v: 81 -> 4
+4: 4 is neither even nor odd.
+4: Added v - M(v): 4 -> 3 to forest.
+4: Relinquishing lock 3.
+4: Found u and v: 81 -> 8
+4: 8 is neither even nor odd.
+4: Added v - M(v): 8 -> 18 to forest.
+4: Relinquishing lock 8.
+4: Found u and v: 81 -> 18
+4: 18 is even, checking for connectivity.
+5: 5 is neither even nor odd.
+5: Added v - M(v): 5 -> 7 to forest.
+5: Relinquishing lock 5.
+5: Found u and v: 86 -> 11
+5: 11 is neither even nor odd.
+5: Added v - M(v): 11 -> 22 to forest.
+5: Relinquishing lock 11.
+5: Found u and v: 86 -> 16
+5: 16 is neither even nor odd.
+5: Added v - M(v): 16 -> 17 to forest.
+5: Relinquishing lock 16.
+5: Found u and v: 86 -> 17
+5: 17 is even, checking for connectivity.
+5: Finding blossom containing 86.
+5: Acquiring lock for 17. Next is 16.
+5: Got lock 17.
+5: Acquiring lock for 16. Next is 86.
+5: Got lock 16.
+5: Got lock 86.
+4: Finding blossom containing 81.
+4: Acquiring lock for 18. Next is 8.
+4: Got lock 18.
+4: Acquiring lock for 8. Next is 81.
+4: Got lock 8.
+4: Got lock 81.
+5: Blossom found!
+5: Removing vertex 17 of 86's blossom from graph.
+5: Relinquishing lock 17.
+5: Removing vertex 16 of 86's blossom from graph.
+4: Blossom found!
+5: Relinquishing lock 16.
+4: Removing vertex 18 of 81's blossom from graph.
+5: Relinquishing lock 86.
+5: Found u and v: 86 -> 18
+4: Relinquishing lock 18.
+5: Found u and v: 86 -> 19
+5: 19 is neither even nor odd.
+5: Added v - M(v): 19 -> 0 to forest.
+5: Relinquishing lock 0.
+5: Found u and v: 86 -> 23
+5: 23 is neither even nor odd.
+5: Added v - M(v): 23 -> 31 to forest.
+4: Removing vertex 8 of 81's blossom from graph.
+5: Relinquishing lock 23.
+4: Relinquishing lock 8.
+5: Found u and v: 86 -> 24
+4: Relinquishing lock 81.
+4: Found u and v: 81 -> 24
+4: 24 is neither even nor odd.
+4: Added v - M(v): 24 -> 27 to forest.
+4: Relinquishing lock 24.
+4: Found u and v: 81 -> 25
+4: 25 is neither even nor odd.
+5: 24 is neither even nor odd.
+5: Relinquishing lock 24.
+5: Found u and v: 86 -> 28
+5: 28 is neither even nor odd.
+5: Added v - M(v): 28 -> 39 to forest.
+5: Relinquishing lock 28.
+5: Found u and v: 86 -> 33
+5: 33 is neither even nor odd.
+4: Added v - M(v): 25 -> 9 to forest.
+4: Relinquishing lock 9.
+4: Found u and v: 81 -> 27
+4: 27 is even, checking for connectivity.
+4: Finding blossom containing 81.
+5: Added v - M(v): 33 -> 30 to forest.
+5: Relinquishing lock 30.
+5: Found u and v: 86 -> 34
+5: 34 is neither even nor odd.
+5: Added v - M(v): 34 -> 29 to forest.
+5: Relinquishing lock 29.
+5: Found u and v: 86 -> 36
+5: 36 is neither even nor odd.
+5: Added v - M(v): 36 -> 37 to forest.
+4: Acquiring lock for 27. Next is 24.
+4: Got lock 27.
+4: Acquiring lock for 24. Next is 81.
+4: Got lock 24.
+4: Got lock 81.
+5: Relinquishing lock 36.
+5: Found u and v: 86 -> 37
+5: 37 is even, checking for connectivity.
+5: Finding blossom containing 86.
+5: Acquiring lock for 37. Next is 36.
+5: Got lock 37.
+5: Acquiring lock for 36. Next is 86.
+5: Got lock 36.
+5: Got lock 86.
+4: Blossom found!
+4: Removing vertex 27 of 81's blossom from graph.
+4: Relinquishing lock 27.
+4: Removing vertex 24 of 81's blossom from graph.
+4: Relinquishing lock 24.
+4: Relinquishing lock 81.
+4: Found u and v: 81 -> 29
+5: Blossom found!
+4: 29 is even, checking for connectivity.
+5: Removing vertex 37 of 86's blossom from graph.
+5: Relinquishing lock 37.
+5: Removing vertex 36 of 86's blossom from graph.
+4: Finding blossom containing 81.
+5: Relinquishing lock 36.
+5: Relinquishing lock 86.
+5: Found u and v: 86 -> 39
+5: 39 is even, checking for connectivity.
+5: Finding blossom containing 86.
+5: Acquiring lock for 39. Next is 28.
+5: Got lock 39.
+5: Acquiring lock for 28. Next is 86.
+5: Got lock 28.
+5: Got lock 86.
+4: No blossom for 81 -> 29, finding alternating path.
+4: Looking for an alternating path through 81 -> 29.
+4: Found tail.
+4: Found head.
+4: Acquiring lock for 81. Next is 29.
+4: Got lock 81.
+4: Acquiring lock for 29. Next is 34.
+4: Got lock 29.
+5: Blossom found!
+5: Removing vertex 39 of 86's blossom from graph.
+4: Acquiring lock for 34. Next is 86.
+4: Got lock 34.
+5: Relinquishing lock 39.
+5: Removing vertex 28 of 86's blossom from graph.
+5: Relinquishing lock 28.
+5: Relinquishing lock 86.
+5: Found u and v: 86 -> 40
+5: 40 is neither even nor odd.
+4: Gave up on lock 86.
+4: Relinquishing lock 81.
+4: Relinquishing lock 29.
+4: Relinquishing lock 34.
+5: Added v - M(v): 40 -> 42 to forest.
+5: Relinquishing lock 40.
+5: Found u and v: 86 -> 41
+5: 41 is neither even nor odd.
+5: Added v - M(v): 41 -> 26 to forest.
+5: Relinquishing lock 26.
+5: Found u and v: 86 -> 43
+4: Couldn't get locks of 81 -> 29.
+4: Found a NULL alternating path.
+4: Found u and v: 81 -> 35
+4: 35 is neither even nor odd.
+4: Added v - M(v): 35 -> 32 to forest.
+4: Relinquishing lock 32.
+5: 43 is neither even nor odd.
+5: Added v - M(v): 43 -> 57 to forest.
+5: Relinquishing lock 43.
+5: Found u and v: 86 -> 44
+5: 44 is neither even nor odd.
+5: Added v - M(v): 44 -> 55 to forest.
+5: Relinquishing lock 44.
+5: Found u and v: 86 -> 45
+4: Found u and v: 81 -> 38
+4: 38 is neither even nor odd.
+4: Added v - M(v): 38 -> 49 to forest.
+4: Relinquishing lock 38.
+5: 45 is neither even nor odd.
+5: Added v - M(v): 45 -> 47 to forest.
+5: Relinquishing lock 45.
+5: Found u and v: 86 -> 46
+5: 46 is neither even nor odd.
+5: Added v - M(v): 46 -> 48 to forest.
+5: Relinquishing lock 46.
+5: Found u and v: 86 -> 47
+4: Found u and v: 81 -> 45
+4: Found u and v: 81 -> 48
+4: 48 is even, checking for connectivity.
+5: 47 is even, checking for connectivity.
+5: Finding blossom containing 86.
+4: Finding blossom containing 81.
+5: Acquiring lock for 47. Next is 45.
+5: Got lock 47.
+5: Acquiring lock for 45. Next is 86.
+5: Got lock 45.
+5: Got lock 86.
+4: No blossom for 81 -> 48, finding alternating path.
+4: Looking for an alternating path through 81 -> 48.
+4: Found tail.
+4: Found head.
+4: Acquiring lock for 81. Next is 48.
+4: Got lock 81.
+4: Acquiring lock for 48. Next is 46.
+4: Got lock 48.
+4: Acquiring lock for 46. Next is 86.
+4: Got lock 46.
+4: Gave up on lock 86.
+4: Relinquishing lock 81.
+4: Relinquishing lock 48.
+4: Relinquishing lock 46.
+4: Couldn't get locks of 81 -> 48.
+4: Found a NULL alternating path.
+4: Found u and v: 81 -> 51
+4: 51 is neither even nor odd.
+4: Added v - M(v): 51 -> 56 to forest.
+4: Relinquishing lock 51.
+4: Found u and v: 81 -> 52
+4: 52 is neither even nor odd.
+4: Added v - M(v): 52 -> 64 to forest.
+4: Relinquishing lock 52.
+4: Found u and v: 81 -> 53
+4: 53 is neither even nor odd.
+4: Added v - M(v): 53 -> 50 to forest.
+4: Relinquishing lock 50.
+4: Found u and v: 81 -> 54
+4: 54 is neither even nor odd.
+4: Added v - M(v): 54 -> 59 to forest.
+4: Relinquishing lock 54.
+4: Found u and v: 81 -> 55
+4: 55 is even, checking for connectivity.
+4: Finding blossom containing 81.
+5: Blossom found!
+5: Removing vertex 47 of 86's blossom from graph.
+5: Relinquishing lock 47.
+5: Removing vertex 45 of 86's blossom from graph.
+5: Relinquishing lock 45.
+5: Relinquishing lock 86.
+5: Found u and v: 86 -> 48
+5: 48 is even, checking for connectivity.
+5: Finding blossom containing 86.
+5: Acquiring lock for 48. Next is 46.
+5: Got lock 48.
+5: Acquiring lock for 46. Next is 86.
+5: Got lock 46.
+5: Got lock 86.
+4: No blossom for 81 -> 55, finding alternating path.
+4: Looking for an alternating path through 81 -> 55.
+4: Found tail.
+4: Found head.
+4: Acquiring lock for 81. Next is 55.
+4: Got lock 81.
+4: Acquiring lock for 55. Next is 44.
+4: Got lock 55.
+4: Acquiring lock for 44. Next is 86.
+4: Got lock 44.
+4: Gave up on lock 86.
+4: Relinquishing lock 81.
+4: Relinquishing lock 55.
+4: Relinquishing lock 44.
+4: Couldn't get locks of 81 -> 55.
+4: Found a NULL alternating path.
+4: Found u and v: 81 -> 56
+4: 56 is even, checking for connectivity.
+4: Finding blossom containing 81.
+4: Acquiring lock for 56. Next is 51.
+4: Got lock 56.
+4: Acquiring lock for 51. Next is 81.
+4: Got lock 51.
+4: Got lock 81.
+5: Blossom found!
+5: Removing vertex 48 of 86's blossom from graph.
+5: Relinquishing lock 48.
+5: Removing vertex 46 of 86's blossom from graph.
+5: Relinquishing lock 46.
+4: Blossom found!
+5: Relinquishing lock 86.
+4: Removing vertex 56 of 81's blossom from graph.
+5: Found u and v: 86 -> 50
+4: Relinquishing lock 56.
+5: 50 is even, checking for connectivity.
+5: Finding blossom containing 86.
+4: Removing vertex 51 of 81's blossom from graph.
+4: Relinquishing lock 51.
+4: Relinquishing lock 81.
+4: Found u and v: 81 -> 58
+4: 58 is neither even nor odd.
+4: Added v - M(v): 58 -> 69 to forest.
+4: Relinquishing lock 58.
+4: Found u and v: 81 -> 59
+4: 59 is even, checking for connectivity.
+4: Finding blossom containing 81.
+4: Acquiring lock for 59. Next is 54.
+4: Got lock 59.
+4: Acquiring lock for 54. Next is 81.
+4: Got lock 54.
+4: Got lock 81.
+5: No blossom for 86 -> 50, finding alternating path.
+5: Looking for an alternating path through 86 -> 50.
+5: Found tail.
+5: Found head.
+5: Acquiring lock for 86. Next is 50.
+5: Got lock 86.
+5: Acquiring lock for 50. Next is 53.
+5: Got lock 50.
+5: Acquiring lock for 53. Next is 81.
+5: Got lock 53.
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+4: Blossom found!
+4: Removing vertex 59 of 81's blossom from graph.
+5: Busy looping for node 81
+4: Relinquishing lock 59.
+5: Busy looping for node 81
+4: Removing vertex 54 of 81's blossom from graph.
+4: Relinquishing lock 54.
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+5: Busy looping for node 81
+4: Relinquishing lock 81.
+4: Found u and v: 81 -> 60
+4: 60 is neither even nor odd.
+4: Added v - M(v): 60 -> 65 to forest.
+5: Busy looping for node 81
+5: Got lock 81.
+5: Busy looping for node 81
+5: Got locks, checking path through 86 -> 50.
+5: Checking path.
+4: Relinquishing lock 60.
+4: Found u and v: 81 -> 63
+4: 63 is neither even nor odd.
+4: Added v - M(v): 63 -> 61 to forest.
+5: Checking path->next.
+5: Checking matching 50 -> 53.
+5: Path checked successfully.
+5: Augmenting path.
+4: Relinquishing lock 61.
+4: Found u and v: 81 -> 64
+4: 64 is even, checking for connectivity.
+4: Finding blossom containing 81.
+Relinquishing locks to 86 -> 50 and adding it to the matching.
+4: Acquiring lock for 64. Next is 52.
+Relinquishing locks to 53 -> 81 and adding it to the matching.
+4: Got lock 64.
+4: Acquiring lock for 52. Next is 81.
+4: Got lock 52.
+4: Got lock 81.
+4: Blossom found!
+4: Removing vertex 64 of 81's blossom from graph.
+4: Relinquishing lock 64.
+4: Removing vertex 52 of 81's blossom from graph.
+4: Relinquishing lock 52.
+4: Relinquishing lock 81.
+----------------------------------
+5: Found u and v: 96 -> 6
+5: 6 is neither even nor odd.
+5: Added v - M(v): 6 -> 10 to forest.
+5: Relinquishing lock 6.
+5: Found u and v: 96 -> 9
+5: 9 is neither even nor odd.
+5: Added v - M(v): 9 -> 25 to forest.
+5: Relinquishing lock 9.
+5: Found u and v: 96 -> 34
+5: 34 is neither even nor odd.
+5: Added v - M(v): 34 -> 29 to forest.
+5: Relinquishing lock 29.
+5: Found u and v: 96 -> 35
+5: 35 is neither even nor odd.
+5: Added v - M(v): 35 -> 32 to forest.
+5: Relinquishing lock 32.
+5: Found u and v: 96 -> 40
+5: 40 is neither even nor odd.
+5: Added v - M(v): 40 -> 42 to forest.
+5: Relinquishing lock 40.
+5: Found u and v: 96 -> 60
+5: 60 is neither even nor odd.
+5: Added v - M(v): 60 -> 65 to forest.
+5: Relinquishing lock 60.
+5: Found u and v: 96 -> 61
+5: 61 is neither even nor odd.
+5: Added v - M(v): 61 -> 63 to forest.
+5: Relinquishing lock 61.
+5: Found u and v: 96 -> 63
+5: 63 is even, checking for connectivity.
+5: Finding blossom containing 96.
+5: Acquiring lock for 63. Next is 61.
+5: Got lock 63.
+5: Acquiring lock for 61. Next is 96.
+5: Got lock 61.
+5: Got lock 96.
+5: Blossom found!
+5: Removing vertex 63 of 96's blossom from graph.
+5: Relinquishing lock 63.
+5: Removing vertex 61 of 96's blossom from graph.
+5: Relinquishing lock 61.
+5: Relinquishing lock 96.
+5: Found u and v: 96 -> 66
+5: 66 is neither even nor odd.
+5: Added v - M(v): 66 -> 74 to forest.
+5: Relinquishing lock 66.
+5: Found u and v: 96 -> 67
+5: 67 is neither even nor odd.
+5: Added v - M(v): 67 -> 73 to forest.
+5: Relinquishing lock 67.
+5: Found u and v: 96 -> 68
+5: 68 is neither even nor odd.
+5: Added v - M(v): 68 -> 62 to forest.
+5: Relinquishing lock 62.
+5: Found u and v: 96 -> 69
+5: 69 is neither even nor odd.
+5: Added v - M(v): 69 -> 58 to forest.
+5: Relinquishing lock 58.
+5: Found u and v: 96 -> 71
+5: 71 is neither even nor odd.
+5: Added v - M(v): 71 -> 79 to forest.
+5: Relinquishing lock 71.
+5: Found u and v: 96 -> 72
+5: 72 is neither even nor odd.
+5: Added v - M(v): 72 -> 89 to forest.
+5: Relinquishing lock 72.
+5: Found u and v: 96 -> 73
+5: 73 is even, checking for connectivity.
+5: Finding blossom containing 96.
+5: Acquiring lock for 73. Next is 67.
+5: Got lock 73.
+5: Acquiring lock for 67. Next is 96.
+5: Got lock 67.
+5: Got lock 96.
+5: Blossom found!
+5: Removing vertex 73 of 96's blossom from graph.
+5: Relinquishing lock 73.
+5: Removing vertex 67 of 96's blossom from graph.
+5: Relinquishing lock 67.
+5: Relinquishing lock 96.
+5: Found u and v: 96 -> 78
+5: 78 is neither even nor odd.
+5: Added v - M(v): 78 -> 91 to forest.
+5: Relinquishing lock 78.
+5: Found u and v: 96 -> 79
+5: 79 is even, checking for connectivity.
+5: Finding blossom containing 96.
+5: Acquiring lock for 79. Next is 71.
+5: Got lock 79.
+5: Acquiring lock for 71. Next is 96.
+5: Got lock 71.
+5: Got lock 96.
+5: Blossom found!
+5: Removing vertex 79 of 96's blossom from graph.
+5: Relinquishing lock 79.
+5: Removing vertex 71 of 96's blossom from graph.
+5: Relinquishing lock 71.
+5: Relinquishing lock 96.
+5: Found u and v: 96 -> 80
+5: 80 is neither even nor odd.
+5: Added v - M(v): 80 -> 75 to forest.
+5: Relinquishing lock 75.
+5: Found u and v: 96 -> 81
+5: 81 is neither even nor odd.
+5: Added v - M(v): 81 -> 53 to forest.
+5: Relinquishing lock 53.
+5: Found u and v: 96 -> 83
+5: 83 is neither even nor odd.
+5: Added v - M(v): 83 -> 70 to forest.
+5: Relinquishing lock 70.
+5: Found u and v: 96 -> 84
+5: 84 is neither even nor odd.
+5: Added v - M(v): 84 -> 90 to forest.
+5: Relinquishing lock 84.
+5: Found u and v: 96 -> 85
+5: 85 is neither even nor odd.
+5: Added v - M(v): 85 -> 77 to forest.
+5: Relinquishing lock 77.
+5: Found u and v: 96 -> 86
+5: 86 is neither even nor odd.
+5: Added v - M(v): 86 -> 50 to forest.
+5: Relinquishing lock 50.
+5: Found u and v: 96 -> 87
+5: 87 is neither even nor odd.
+5: Added v - M(v): 87 -> 76 to forest.
+5: Relinquishing lock 76.
+5: Found u and v: 96 -> 88
+5: 88 is neither even nor odd.
+5: Added v - M(v): 88 -> 92 to forest.
+5: Relinquishing lock 88.
+5: Found u and v: 96 -> 89
+5: 89 is even, checking for connectivity.
+5: Finding blossom containing 96.
+5: Acquiring lock for 89. Next is 72.
+5: Got lock 89.
+5: Acquiring lock for 72. Next is 96.
+5: Got lock 72.
+5: Got lock 96.
+5: Blossom found!
+5: Removing vertex 89 of 96's blossom from graph.
+5: Relinquishing lock 89.
+5: Removing vertex 72 of 96's blossom from graph.
+5: Relinquishing lock 72.
+5: Relinquishing lock 96.
+5: Found u and v: 96 -> 90
+5: 90 is even, checking for connectivity.
+5: Finding blossom containing 96.
+5: Acquiring lock for 90. Next is 84.
+5: Got lock 90.
+5: Acquiring lock for 84. Next is 96.
+5: Got lock 84.
+5: Got lock 96.
+5: Blossom found!
+5: Removing vertex 90 of 96's blossom from graph.
+5: Relinquishing lock 90.
+5: Removing vertex 84 of 96's blossom from graph.
+5: Relinquishing lock 84.
+5: Relinquishing lock 96.
+5: Found u and v: 96 -> 91
+5: 91 is even, checking for connectivity.
+5: Finding blossom containing 96.
+5: Acquiring lock for 91. Next is 78.
+5: Got lock 91.
+5: Acquiring lock for 78. Next is 96.
+5: Got lock 78.
+5: Got lock 96.
+5: Blossom found!
+5: Removing vertex 91 of 96's blossom from graph.
+5: Relinquishing lock 91.
+5: Removing vertex 78 of 96's blossom from graph.
+5: Relinquishing lock 78.
+5: Relinquishing lock 96.
+5: Found u and v: 96 -> 92
+5: 92 is even, checking for connectivity.
+5: Finding blossom containing 96.
+5: Acquiring lock for 92. Next is 88.
+5: Got lock 92.
+5: Acquiring lock for 88. Next is 96.
+5: Got lock 88.
+5: Got lock 96.
+5: Blossom found!
+5: Removing vertex 92 of 96's blossom from graph.
+5: Relinquishing lock 92.
+5: Removing vertex 88 of 96's blossom from graph.
+5: Relinquishing lock 88.
+5: Relinquishing lock 96.
+5: Found u and v: 96 -> 93
+5: 93 is neither even nor odd.
+5: Added v - M(v): 93 -> 95 to forest.
+5: Relinquishing lock 93.
+5: Found u and v: 96 -> 94
+5: 94 is neither even nor odd.
+5: Added v - M(v): 94 -> 82 to forest.
+5: Relinquishing lock 82.
+5: Found u and v: 96 -> 95
+5: 95 is even, checking for connectivity.
+5: Finding blossom containing 96.
+5: Acquiring lock for 95. Next is 93.
+5: Got lock 95.
+5: Acquiring lock for 93. Next is 96.
+5: Got lock 93.
+5: Got lock 96.
+5: Blossom found!
+5: Removing vertex 95 of 96's blossom from graph.
+5: Relinquishing lock 95.
+5: Removing vertex 93 of 96's blossom from graph.
+5: Relinquishing lock 93.
+5: Relinquishing lock 96.
+5: Found u and v: 96 -> 97
+5: 97 is even, checking for connectivity.
+5: Finding blossom containing 96.
+5: No blossom for 96 -> 97, finding alternating path.
+5: Looking for an alternating path through 96 -> 97.
+5: Found tail.
+5: Found head.
+5: Acquiring lock for 96. Next is 97.
+5: Got lock 96.
+5: Got lock 97.
+5: Got locks, checking path through 96 -> 97.
+5: Checking path.
+5: Checking path->next.
+5: Path checked successfully.
+5: Augmenting path.
+Relinquishing locks to 96 -> 97 and adding it to the matching.
+----------------------------------
+5: Found u and v: 98 -> 14
+5: 14 is neither even nor odd.
+5: Added v - M(v): 14 -> 20 to forest.
+5: Relinquishing lock 14.
+5: Found u and v: 98 -> 22
+5: 22 is neither even nor odd.
+5: Added v - M(v): 22 -> 11 to forest.
+5: Relinquishing lock 11.
+5: Found u and v: 98 -> 23
+5: 23 is neither even nor odd.
+5: Added v - M(v): 23 -> 31 to forest.
+5: Relinquishing lock 23.
+5: Found u and v: 98 -> 29
+5: 29 is neither even nor odd.
+5: Added v - M(v): 29 -> 34 to forest.
+5: Relinquishing lock 29.
+5: Found u and v: 98 -> 33
+5: 33 is neither even nor odd.
+5: Added v - M(v): 33 -> 30 to forest.
+5: Relinquishing lock 30.
+5: Found u and v: 98 -> 40
+5: 40 is neither even nor odd.
+5: Added v - M(v): 40 -> 42 to forest.
+5: Relinquishing lock 40.
+5: Found u and v: 98 -> 43
+5: 43 is neither even nor odd.
+5: Added v - M(v): 43 -> 57 to forest.
+5: Relinquishing lock 43.
+5: Found u and v: 98 -> 49
+5: 49 is neither even nor odd.
+5: Added v - M(v): 49 -> 38 to forest.
+5: Relinquishing lock 38.
+5: Found u and v: 98 -> 50
+5: 50 is neither even nor odd.
+5: Added v - M(v): 50 -> 86 to forest.
+5: Relinquishing lock 50.
+5: Found u and v: 98 -> 57
+5: 57 is even, checking for connectivity.
+5: Finding blossom containing 98.
+5: Acquiring lock for 57. Next is 43.
+5: Got lock 57.
+5: Acquiring lock for 43. Next is 98.
+5: Got lock 43.
+5: Got lock 98.
+5: Blossom found!
+5: Removing vertex 57 of 98's blossom from graph.
+5: Relinquishing lock 57.
+5: Removing vertex 43 of 98's blossom from graph.
+5: Relinquishing lock 43.
+5: Relinquishing lock 98.
+5: Found u and v: 98 -> 58
+5: 58 is neither even nor odd.
+5: Added v - M(v): 58 -> 69 to forest.
+5: Relinquishing lock 58.
+5: Found u and v: 98 -> 65
+5: 65 is neither even nor odd.
+5: Added v - M(v): 65 -> 60 to forest.
+5: Relinquishing lock 60.
+5: Found u and v: 98 -> 70
+5: 70 is neither even nor odd.
+5: Added v - M(v): 70 -> 83 to forest.
+5: Relinquishing lock 70.
+5: Found u and v: 98 -> 77
+5: 77 is neither even nor odd.
+5: Added v - M(v): 77 -> 85 to forest.
+5: Relinquishing lock 77.
+5: Found u and v: 98 -> 81
+5: 81 is neither even nor odd.
+5: Added v - M(v): 81 -> 53 to forest.
+5: Relinquishing lock 53.
+5: Found u and v: 98 -> 82
+5: 82 is neither even nor odd.
+5: Added v - M(v): 82 -> 94 to forest.
+5: Relinquishing lock 82.
+5: Found u and v: 98 -> 85
+5: 85 is even, checking for connectivity.
+5: Finding blossom containing 98.
+5: Acquiring lock for 85. Next is 77.
+5: Got lock 85.
+5: Acquiring lock for 77. Next is 98.
+5: Got lock 77.
+5: Got lock 98.
+5: Blossom found!
+5: Removing vertex 85 of 98's blossom from graph.
+5: Relinquishing lock 85.
+5: Removing vertex 77 of 98's blossom from graph.
+5: Relinquishing lock 77.
+5: Relinquishing lock 98.
+5: Found u and v: 98 -> 86
+5: 86 is even, checking for connectivity.
+5: Finding blossom containing 98.
+5: Acquiring lock for 86. Next is 50.
+5: Got lock 86.
+5: Acquiring lock for 50. Next is 98.
+5: Got lock 50.
+5: Got lock 98.
+5: Blossom found!
+5: Removing vertex 86 of 98's blossom from graph.
+5: Relinquishing lock 86.
+5: Removing vertex 50 of 98's blossom from graph.
+5: Relinquishing lock 50.
+5: Relinquishing lock 98.
+5: Found u and v: 98 -> 87
+5: 87 is neither even nor odd.
+5: Added v - M(v): 87 -> 76 to forest.
+5: Relinquishing lock 76.
+5: Found u and v: 98 -> 94
+5: 94 is even, checking for connectivity.
+5: Finding blossom containing 98.
+5: Acquiring lock for 94. Next is 82.
+5: Got lock 94.
+5: Acquiring lock for 82. Next is 98.
+5: Got lock 82.
+5: Got lock 98.
+5: Blossom found!
+5: Removing vertex 94 of 98's blossom from graph.
+5: Relinquishing lock 94.
+5: Removing vertex 82 of 98's blossom from graph.
+5: Relinquishing lock 82.
+5: Relinquishing lock 98.
+5: Found u and v: 98 -> 96
+5: 96 is neither even nor odd.
+5: Added v - M(v): 96 -> 97 to forest.
+5: Relinquishing lock 96.
+5: Found u and v: 98 -> 97
+5: 97 is even, checking for connectivity.
+5: Finding blossom containing 98.
+5: Acquiring lock for 97. Next is 96.
+5: Got lock 97.
+5: Acquiring lock for 96. Next is 98.
+5: Got lock 96.
+5: Got lock 98.
+5: Blossom found!
+5: Removing vertex 97 of 98's blossom from graph.
+5: Relinquishing lock 97.
+5: Removing vertex 96 of 98's blossom from graph.
+5: Relinquishing lock 96.
+5: Relinquishing lock 98.
+5: Found u and v: 98 -> 99
+5: 99 is even, checking for connectivity.
+5: Finding blossom containing 98.
+5: No blossom for 98 -> 99, finding alternating path.
+5: Looking for an alternating path through 98 -> 99.
+5: Found tail.
+5: Found head.
+5: Acquiring lock for 98. Next is 99.
+5: Got lock 98.
+5: Got lock 99.
+5: Got locks, checking path through 98 -> 99.
+5: Checking path.
+5: Checking path->next.
+5: Path checked successfully.
+5: Augmenting path.
+Relinquishing locks to 98 -> 99 and adding it to the matching.
+----------------------------------
+
+OMP solution found!
+Matching contained 50 edges.
+Solution took 0.0014s on 6 processors
